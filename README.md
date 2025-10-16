@@ -1,11 +1,11 @@
 # Spracherkennung
 
-**Keyword Spotting – [Edge impulse](https://studio.edgeimpulse.com/)** 
+**Keyword Spotting – [Edge Impulse](https://studio.edgeimpulse.com/)** 
 
 1.	Verbinde ein device (bspw. Handy) um Audio Daten zu sammeln. Klicke auf „connect a device” und scanne den QR-Code.
 2.	Lege das Label des Wortes fest auf das du das Modell trainieren willst und spreche das Wort mehrfach ein. Wähle microphone, 16000Hz und die Länge der Aufnahme fest (bspw. 60000ms).
 3.	Splitte das Sample in kleinere Abschnitte indem du auf die drei Punkte und „Split sample“ drückst. Wähle eine passende Länge (empfohlen 1000ms) und aktiviere shift samples für eine bessere Generalisierung.
-4.	Optional kann der Datensatz mit noise-, sowie unknown-daten aus dem Ordner MP3-Data erweitert werden.
+4.	Optional kann der Datensatz mit noise-, sowie unknown-daten aus dem Ordner [MP3-Data](https://github.com/Tarn017/Spracherkennung/tree/main/MP3_Data) erweitert werden.
 5.	Wähle in „Create impulse“ die Blöcke “Audio MFCC” sowie “Clasification” und speichere den Impuls.
 6.	MFCC: Autotune Parameters -> Save Parameters -> Generate Features
 7.	Classifier: Activate Augmentation -> Save & Train
