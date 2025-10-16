@@ -15,8 +15,8 @@
 11.	Installiere im Board-Manager: “Arduino Mbed OS Nano Boards” und wähle als Board den “Arduino Nano 33 Ble“.
 12.	In Arduino: File -> Examples -> <name>_inferencing -> nano_ble33_sense -> nano_ble33_sense_microphone_continuous
 13.	Alternativ: File -> Examples -> <name>_inferencing -> nano_ble33_sense -> nano_ble33_sense_microphone (nimmt nicht durchgehend auf, sondern nur wenn “Recording…” ausgegeben wird)
-14.	Weiterführende Informationen zur Anwendung von Edge Impulse auf dem Arduino: https://docs.arduino.cc/tutorials/nano-33-ble-sense/edge-impulse/
-15.	Weiterführende Informationen zu Edge Impulse: https://docs.edgeimpulse.com/tutorials/end-to-end/keyword-spotting
+14.	Weiterführende Informationen zur Anwendung von Edge Impulse auf dem Arduino: [Arduino](https://docs.arduino.cc/tutorials/nano-33-ble-sense/edge-impulse/)
+15.	Weiterführende Informationen zu Edge Impulse: [Edge Impulse](https://docs.edgeimpulse.com/tutorials/end-to-end/keyword-spotting)
 
 Quelle der Audio-Daten:
 Edge Impulse. (2024). Audio Classification – Keyword Spotting. Edge Impulse Studio. Verfügbar unter: https://studio.edgeimpulse.com/public/499022/latest
