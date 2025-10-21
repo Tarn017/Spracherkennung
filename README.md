@@ -20,8 +20,8 @@
 
 **Weiterführende Links**
 
-17.	Weiterführende Informationen zur Anwendung von Edge Impulse auf dem Arduino: [Arduino](https://docs.arduino.cc/tutorials/nano-33-ble-sense/edge-impulse/)
-18.	Weiterführende Informationen zu Edge Impulse: [Edge Impulse](https://docs.edgeimpulse.com/tutorials/end-to-end/keyword-spotting)
+Weiterführende Informationen zur Anwendung von Edge Impulse auf dem Arduino: [Arduino](https://docs.arduino.cc/tutorials/nano-33-ble-sense/edge-impulse/)
+Weiterführende Informationen zu Edge Impulse: [Edge Impulse](https://docs.edgeimpulse.com/tutorials/end-to-end/keyword-spotting)
 
 Quelle der Audio-Daten:
 Edge Impulse. (2024). Audio Classification – Keyword Spotting. Edge Impulse Studio. Verfügbar unter: https://studio.edgeimpulse.com/public/499022/latest
