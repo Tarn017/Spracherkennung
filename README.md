@@ -42,7 +42,7 @@
 14.	Wichtig ist, dass Trainings- und Testdaten vorhanden sind. Gehe dafür entweder vom Reiter Training auf Test und sammle mit derselben Methode weitere Daten oder sammle zunächst alle Daten nur in Training. Gehe dafür links unter "Dashboard" kann ganz unten auf "Perform Train / Test Split" um die gesammelte Daten im verhältnis 80/20 in Train- und Testdaten aufzuteilen.
 
 <p align="center">
-  <img src="https://github.com/Tarn017/Spracherkennung/blob/main/assets/selectfolder.png" width="500">
+  <img src="https://github.com/Tarn017/Spracherkennung/blob/main/assets/selectfolder.png" width="400">
 </p>
 
 16.	Wähle in „Create impulse“ die Blöcke “Audio MFCC” sowie “Clasification” und speichere den Impuls.
