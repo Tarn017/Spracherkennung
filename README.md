@@ -5,10 +5,11 @@
 1.	Öffne [Edge Impulse](https://studio.edgeimpulse.com/) und erstelle ein neues Projekt.
 2.	Verbinde ein neues device (bspw. Handy) um Audio Daten zu sammeln. Klicke auf „connect a device” und scanne den QR-Code mit dem Handy oder wähle eine der anderen Optionen:
 
-![connect Screenshot](https://github.com/Tarn017/Spracherkennung/blob/main/assets/newdata.png)
+<img src="https://raw.githubusercontent.com/Tarn017/Spracherkennung/main/assets/newdata.png" width="500">
 
 4.	Lege das Label des Wortes fest auf das du das Modell trainieren willst. Wähle microphone, 16000Hz und die Länge der Aufnahme fest (bspw. 60000ms). Während dieser Aufnahme kannst du das Wort mehrfach einsprechen, achte nur darauf, dass du zwischen den Wörtern kurze Pausen machst:
 
+<img src="https://github.com/Tarn017/Spracherkennung/blob/main/assets/collectdata.png" width="500">
 ![config Screenshot](https://github.com/Tarn017/Spracherkennung/blob/main/assets/collectdata.png)
 
 6.	Nun müssen die einzelnen Wörter noch aus der langen Aufnahme herausgefiltert werden. Splitte das Sample in kleinere Abschnitte indem du auf die drei Punkte und „Split sample“ drückst:
