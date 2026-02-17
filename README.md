@@ -42,7 +42,7 @@
 8.	Wichtig ist, dass Trainings- und Testdaten vorhanden sind. Gehe dafür entweder vom Reiter Training auf Test und sammle mit derselben Methode weitere Daten oder sammle zunächst alle Daten nur in Training. Gehe dafür links unter "Dashboard" kann ganz unten auf "Perform Train / Test Split" um die gesammelte Daten im verhältnis 80/20 in Train- und Testdaten aufzuteilen. Für jede Klasse sollten mindestens 5 Minuten an Trainingsdaten existieren.
 
 <p align="center">
-  <img src="https://github.com/Tarn017/Spracherkennung/blob/main/assets/selectfolder.png" width="200">
+  <img src="https://github.com/Tarn017/Spracherkennung/blob/main/assets/selectfolder.png" width="400">
 </p>
 
 9. Wähle als target device den Arduino Nano 33 Ble Sense aus und klicke save:
@@ -54,7 +54,7 @@
 10.	Wähle in „Create impulse“ die Blöcke “Audio MFCC” sowie “Clasification” und speichere den Impuls:
 
 <p align="center">
-  <img src="https://github.com/Tarn017/Spracherkennung/blob/main/assets/impulse.png" width="500">
+  <img src="https://github.com/Tarn017/Spracherkennung/blob/main/assets/impulse.png" width="600">
 </p>
 
 11.	Gehe links auf MFCC: Autotune Parameters -> Save Parameters -> Generate Features
