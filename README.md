@@ -42,18 +42,20 @@
 14.	Wichtig ist, dass Trainings- und Testdaten vorhanden sind. Gehe dafür entweder vom Reiter Training auf Test und sammle mit derselben Methode weitere Daten oder sammle zunächst alle Daten nur in Training. Gehe dafür links unter "Dashboard" kann ganz unten auf "Perform Train / Test Split" um die gesammelte Daten im verhältnis 80/20 in Train- und Testdaten aufzuteilen.
 
 <p align="center">
-  <img src="https://github.com/Tarn017/Spracherkennung/blob/main/assets/selectfolder.png" width="400">
+  <img src="https://github.com/Tarn017/Spracherkennung/blob/main/assets/selectfolder.png" width="200">
 </p>
 
-16.	Wähle in „Create impulse“ die Blöcke “Audio MFCC” sowie “Clasification” und speichere den Impuls.
-17.	MFCC: Autotune Parameters -> Save Parameters -> Generate Features
-18.	Classifier: Activate Augmentation -> Save & Train
-19.	Live Classification/Model Testing: Teste dein erzeugtes Modell
-20.	Deployment: Arduino Library auswählen und builden
-21.	Die geladene Datei als Zip-Bibliothek in Arduino einbinden
-22.	Installiere im Board-Manager: “Arduino Mbed OS Nano Boards” und wähle als Board den “Arduino Nano 33 Ble“.
-23.	In Arduino: File -> Examples -> <name>_inferencing -> nano_ble33_sense -> nano_ble33_sense_microphone_continuous
-24.	Alternativ: File -> Examples -> <name>_inferencing -> nano_ble33_sense -> nano_ble33_sense_microphone (nimmt nicht durchgehend auf, sondern nur wenn “Recording…” ausgegeben wird)
+15. Wähle als target device den Arduino Nano 33 Ble Sense aus und klicke save:
+
+17.	Wähle in „Create impulse“ die Blöcke “Audio MFCC” sowie “Clasification” und speichere den Impuls:
+18.	Gehe links auf MFCC: Autotune Parameters -> Save Parameters -> Generate Features
+19.	Gehe links auf Classifier: Activate Augmentation -> Save & Train
+20.	Gehe links auf Live Classification/Model Testing: Teste dein erzeugtes Modell
+21.	Deployment: Arduino Library auswählen und builden
+22.	Die geladene Datei als Zip-Bibliothek in Arduino einbinden
+23.	Installiere im Board-Manager: “Arduino Mbed OS Nano Boards” und wähle als Board den “Arduino Nano 33 Ble“.
+24.	In Arduino: File -> Examples -> <name>_inferencing -> nano_ble33_sense -> nano_ble33_sense_microphone_continuous
+25.	Alternativ: File -> Examples -> <name>_inferencing -> nano_ble33_sense -> nano_ble33_sense_microphone (nimmt nicht durchgehend auf, sondern nur wenn “Recording…” ausgegeben wird)
 
 **Weiterführende Links**
 
