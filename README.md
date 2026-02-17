@@ -2,7 +2,7 @@
 
 **Keyword Spotting** 
 
-1.	Öffne [Edge Impulse](https://studio.edgeimpulse.com/) understelle ein neues Projekt.
+1.	Öffne [Edge Impulse](https://studio.edgeimpulse.com/) und erstelle ein neues Projekt.
 2.	Verbinde ein device (bspw. Handy) um Audio Daten zu sammeln. Klicke auf „connect a device” und scanne den QR-Code.
 3.	Lege das Label des Wortes fest auf das du das Modell trainieren willst und spreche das Wort mehrfach ein. Wähle microphone, 16000Hz und die Länge der Aufnahme fest (bspw. 60000ms).
 4.	Splitte das Sample in kleinere Abschnitte indem du auf die drei Punkte und „Split sample“ drückst. Wähle eine passende Länge (empfohlen 1000ms) und aktiviere shift samples für eine bessere Generalisierung.
